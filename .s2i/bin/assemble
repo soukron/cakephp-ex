@@ -9,3 +9,6 @@ fi
 
 [[ -d ./tmp ]] && chmod -R go+rw ./tmp
 
+echo "Sleeping for 3600 seconds. It's time to debug..."
+sleep 3600
+
